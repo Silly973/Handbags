@@ -1,3 +1,12 @@
+//1. Maak een components map in src
+//2. Maak een JS bestand met hoofdletters volgens de naam van jouw component
+//3. schrijf een functie met hoofdletters die wat HTML returned
+//4. schrijf direct de "export regel" voor die functie
+//5. importeer jouw eigen component in App.js en geef deze weer al component
+//6. Plak de originele HTML in jouw custom component
+//7. Bekijk welke data dynamisch moet zijn en bedenk daar property-namen voor. Voeg die ook toe bovenaan de functie
+//8. Geef de info door via App.js onder de juiste benamingen.
+
 import React from 'react';
 import './App.css';
 import Product from './components/Product';
@@ -71,10 +80,12 @@ function App() {
               />
               <Tile
                   image={brand}
+                  text={'The Brand image'}
 
               />
               <Tile
                   image={story}
+                  text={'our story image'}
               />
               <Tile
                   title={"our story"}
